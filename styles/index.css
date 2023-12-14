@@ -3,31 +3,38 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  h3{
-    color: hsl(332, 69%, 70%);
+    color: #E584B3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:38px;
 }
  p{
-    color: rgb(62, 48, 58);
+    color: #cbc4c7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:18px;
  }
- .yo {
+ body {
+  background-color: #343434;
+ }
+.yo {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
+    gap: 5.5rem;
     max-width: 68.75rem;
     margin: auto;
   }
   .yo img {
     height: 15.5rem;
     width: 37.5rem;
+    margin: auto;
+  }
+  img:hover {
+    filter: opacity(.2);
+    -webkit-transform: scale(1.3);
   }
   .cuentas {
     max-width: 68.75rem;
     margin: auto;
     margin-top: 2.5rem;
+    gap: 2%;
   }
   .cuentas img {
     height: 10.5rem;
@@ -35,13 +42,12 @@
   }
   .carpeta {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
+    gap: 5.5rem;
     max-width: 68.75rem;
     margin: auto;
   }
   .carpeta img {
     height: 19rem;
     width: 34rem;
+    display: inline-block;
   }
