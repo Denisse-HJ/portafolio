@@ -11,8 +11,9 @@
  p{
     color: rgb(62, 48, 58);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
  }
- .hero {
+ .yo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,7 @@
     max-width: 68.75rem;
     margin: auto;
   }
-  .hero img {
+  .yo img {
     height: 15.5rem;
     width: 37.5rem;
   }
@@ -30,11 +31,15 @@
     text-align: left;
     margin-top: 2.5rem;
   }
-  .class {
+  .cuentas img {
+    height: 10.5rem;
+    width: 10.5rem;
+  }
+  .carpeta {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
-    text-align: left;
-    margin-top: 2.5rem;
-}
+  }
