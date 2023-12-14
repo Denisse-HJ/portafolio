@@ -6,7 +6,6 @@
     color: hsl(332, 69%, 70%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:38px;
-
 }
  p{
     color: rgb(62, 48, 58);
@@ -28,7 +27,6 @@
   .cuentas {
     max-width: 68.75rem;
     margin: auto;
-    text-align: left;
     margin-top: 2.5rem;
   }
   .cuentas img {
@@ -42,4 +40,8 @@
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+  }
+  .carpeta img {
+    height: 19rem;
+    width: 34rem;
   }
