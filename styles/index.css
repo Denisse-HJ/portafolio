@@ -3,10 +3,38 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  h3{
-    color: rgb(178, 53, 142);
+    color: hsl(332, 69%, 70%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+    font-size:38px;
+
+}
  p{
     color: rgb(62, 48, 58);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+ .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+  .hero img {
+    height: 15.5rem;
+    width: 37.5rem;
+  }
+  .cuentas {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: left;
+    margin-top: 2.5rem;
+  }
+  .class {
+    display: flex;
+    align-items: center;
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: left;
+    margin-top: 2.5rem;
+}
