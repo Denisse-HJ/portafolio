@@ -1,3 +1,7 @@
+body {
+  background-color: #343434;
+  cursor: url('../imagenes/bird.png'),auto;
+ }
  h2{
     color: rgb(62, 48, 58);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,13 +14,10 @@
  p{
     color: #cbc4c7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:18px;
- }
- body {
-  background-color: #343434;
+    font-size:23px;
  }
  .titulo {
-  margin: 120px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
  }
 .yo {
     display: flex;
@@ -31,26 +32,34 @@
   }
   .photo:hover {
     filter: opacity(.2);
+    -webkit-transform:scale(1.3);
+    cursor: url(../imagenes/c.png),auto;
   }
   .cuentas {
-    max-width: 68.75rem;
-    margin: auto;
-    margin-top: 2.5rem;
-    gap: 2%;
+    padding: 0px 0px 0px 350px;
+    margin: 50px 50px 0px 50px;
   }
   .cuentas img {
     height: 10.5rem;
     width: 10.5rem;
   }
+  .pcuentas{
+    padding: 0px 0px 0px 430px;;
+    margin: 100px 0px 0px 0px; 
+  }
   .carpeta {
-    display: flex;
-    gap: 5.5rem;
-    max-width: 68.75rem;
-    margin: auto;
+    padding: 0px 0px 0px 350px;
+    margin: 100px 50px 0px 50px;
   }
   .carpeta img {
     height: 19rem;
     width: 34rem;
-    display: inline-block;
-    gap: 5 rem;
   }
+  .pcarpeta {
+    margin: 5px;
+    padding: 50px 0px 0px 0px;
+    display: flex;
+  }
+#uno {
+  margin-right: 15px;
+}
