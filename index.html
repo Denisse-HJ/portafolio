@@ -8,22 +8,37 @@
     <script src="./javascript/index.js"></script>
 </head>
 <body>   
+  <a href="#contactarme">CHAT</a>
           <img 
           width="1900" 
-          height="540" 
-          src="./imagenes/fondo.gif"
-          class="fondo" 
+          height="550" 
+          src="./imagenes/fondo.gif" 
           alt="fondo">
+
+      <div class="audio">
+
+        <img
+              width="340" 
+              height="350"
+              src="./imagenes/Playlist.gif"
+              alt="audio"
+              loading="lazy"> 
+            
+            <audio id="audio" controls autoplay lopp>
+              <source src="fondo.mp3" type="audio/mpeg"
+            </audio>
+
+      </div>
 
     <section class="yo">
       
-        <img
-          src="./imagenes/SM.png"
+        <img class="sm"
+          src="./imagenes/SM.gif"
           alt="acerca de mi"
           loading="lazy">
       
       <div class="titulo">
-            <h3>Acerca de</h3>
+            <h3>CONOCEME</h3>
         <p>
             Me gusta buscar siempre el COMO SÍ
         </p>
@@ -35,10 +50,12 @@
             Actualmente he descubierto el área de TI y estoy en constante aprendizaje, para aplicar como Desarrollador Java Full Stack por medio del curso de GENERATION. 
         </p>
       </div>
+
     </section>
+       
 
     <section class="cuentas">
-        <h3>Links</h3>
+        <h3>RED SOCIAL</h3>
       <div class="pcuentas">    
                 <a 
                   class="photo"
@@ -79,10 +96,9 @@
     </section>
 
     <section class="carpeta">
-         <h3>Proyectos</h3>
+         <h3 class="titulo-h3">PROYECTOS</h3>
 
       <div class="pcarpeta">
-        <br>
                 <a
                 class="photo" id="uno"
                   title="Facebook"
@@ -93,7 +109,7 @@
                 </a>
             
                 <a
-                class="photo"
+                class="photo" 
                   title="Instagram"
                   href="https://www.instagram.com/muretto_arquitectos/"
                   target="_blank">
@@ -102,12 +118,50 @@
                 </a>
       </div>
     </section>
-    <br>
-      <div>
-          <audio controls autoplay>
-            <source src="fondo.mp3" type="audio/mpeg"
-          </audio>
-      </div>
+  
+    <section class="contactar">
+        <h3 class="titulo-h3">CONTACTAR</h3>
+        <nav> 
+          
+          <h4 id="contactarme">CORREO ELECTRÓNICO</h4>
+          <p class="contacto"> 
+            Puedes enviarme un correo electrónico a arq.denisseher@gmail.com 
+          </p> 
+            <br>
+           <p class="contacto">
+            Te responderé en un plazo de 24 horas, de lunes a viernes.
+           </p> 
+          
             
+          <h4>CHARLAR</h4>
+          <p class="contacto">
+            Puedes chatear conmigo. Cuando esté disponible, verá la burbuja "Chat" en la parte superior de la pantalla.
+          </p>
+          <a href="#top"> Ir al indice</a>
+            
+  
+        </nav>
+  
+
+        <form action="" method="">
+          <label for="nombre">Nombre completo*:</label>
+          <input type="text" id="nombre" required>
+          <br>
+          <br>
+          <label for="correo"> Correo*: </label>
+          <input type="email" id="correo" placeholder="usuario@dominio.com" required>
+          <br>
+          <br>
+          <label for="telefono">Teléfono*: </label>
+          <input type="text" id="telefono" minlength="10" required>
+          <br>
+          <br>
+          <label for="mensaje">Mensaje:</label>
+          <input type="text" id="mensaje" required>
+          <br>
+          <button type="submit">ENTREGAR</button>
+        </form>
+
+    </section>
 </body>
 </html>

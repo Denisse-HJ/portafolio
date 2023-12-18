@@ -8,8 +8,23 @@ body {
  }
  h3{
     color: #E584B3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:48px;
+}
+.titulo-h3 {
+  margin: 20px 0px 20px 1150px;
+}
+h4{
+  color: #E584B3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:23px;
+    margin: 20px 0px 20px 1150px;
+}
+.contacto {
+  color: #cbc4c7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:38px;
+    font-size:18px;
+    margin: 0px 0px 0px 1200px;
 }
  p{
     color: #cbc4c7;
@@ -22,10 +37,10 @@ body {
 .yo {
     display: flex;
     gap: 5.5rem;
-    max-width: 68.75rem;
-    margin: auto;
+    margin-right: 68.65px;
+    margin: 100px 400px 0px 340px;
   }
-  .yo img {
+  .sm img {
     height: 25.5rem;
     width: 37.5rem;
     margin: auto;
@@ -47,19 +62,21 @@ body {
     padding: 0px 0px 0px 430px;;
     margin: 100px 0px 0px 0px; 
   }
-  .carpeta {
-    padding: 0px 0px 0px 350px;
-    margin: 100px 50px 0px 50px;
-  }
   .carpeta img {
     height: 19rem;
     width: 34rem;
+    padding: 0px 0px 0px 0px;
+    margin: 30px 0px 80px 80px;
   }
   .pcarpeta {
-    margin: 5px;
-    padding: 50px 0px 0px 0px;
     display: flex;
   }
 #uno {
-  margin-right: 15px;
+  padding-left: 300px;
+}
+#audio {
+  margin: 0px 0px 0px 0px;
+}
+.audio{
+  margin: 0px 0px 0px 1170px;
 }
