@@ -1,91 +1,131 @@
+:root {
+  --cero:#FFFFFF;
+  --uno:#A6A6A6;
+  --dos:#474747;
+  --tres:#010101;
+}
+
 body {
-  background-color: #343434;
+  width: 90vw;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--cero);
   cursor: url('../imagenes/bird.png'),auto;
- }
- h2{
-    color: rgb(62, 48, 58);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
- h3{
-    color: #E584B3;
+}
+
+h3{
+    color: var(--cero);
     font-family: 'Courier New', Courier, monospace;
-    font-size:48px;
+    font-size:200px;
 }
-.titulo-h3 {
-  margin: 20px 0px 20px 1150px;
-}
+
 h4{
-  color: #E584B3;
+  color: var(--dos);
     font-family: 'Courier New', Courier, monospace;
-    font-size:23px;
+    font-size:33px;
     margin: 20px 0px 20px 1150px;
 }
-.contacto {
-  color: #cbc4c7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:18px;
-    margin: 0px 0px 0px 1200px;
-}
- p{
-    color: #cbc4c7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:23px;
- }
- .titulo {
-  margin: 100px 0px 0px 0px;
- }
-.yo {
-    display: flex;
-    gap: 5.5rem;
-    margin-right: 68.65px;
-    margin: 100px 400px 0px 340px;
-  }
-  .sm img {
-    height: 25.5rem;
-    width: 37.5rem;
-    margin: auto;
-  }
-  .photo:hover {
-    filter: opacity(.2);
-    -webkit-transform:scale(1.3);
-    cursor: url(../imagenes/c.png),auto;
-  }
-  .cuentas {
-    padding: 0px 0px 0px 350px;
-    margin: 50px 50px 0px 50px;
-  }
-  .cuentas img {
-    height: 10.5rem;
-    width: 10.5rem;
-  }
-  .pcuentas{
-    padding: 0px 0px 0px 430px;;
-    margin: 100px 0px 0px 0px; 
-  }
-  .carpeta img {
-    height: 19rem;
-    width: 34rem;
-    padding: 0px 0px 0px 0px;
-    margin: 30px 0px 80px 80px;
-  }
-  .pcarpeta {
-    display: flex;
-  }
-#uno {
-  padding-left: 300px;
-}
-#audio {
-  margin: 0px 0px 0px 0px;
-}
-.audio{
-  margin: 0px 0px 0px 1170px;
-}
-#img-home {
-  margin: 0px 0px 0px 1500px;
-}
-.mensaje {
-  margin: 80px 0px 0px 1150px;
-  color: #cbc4c7;
+
+p{
+  color: var(--uno);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:18px;
+  font-size:20px;
 }
+
+.fondo {
+ position: absolute;
+ margin-top: auto;
+
+}
+.clic {
+  position: relative;
+  margin: 100px 0px 0px 820px;
+  width: 300px;
+  height: 300px;
+  cursor: url('../imagenes/c.png'),auto;
+}
+
+.audio{
+  margin: 30px 0px 0px 1100px;
+}
+
+.ptitulo {
+  position: absolute;
+  top: 100px;
+  right: 1200px;
+  color: var(--cero);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.text {
+position: absolute;
+top: 85px;
+left: 150px;
+width: 800px;
+height: 200px;
+margin-left: 410px;
+margin-top: 110px;
+text-align: justify;
+}
+
+.photo:hover {
+  filter: opacity(.2);
+  -webkit-transform:scale(1.3);
+  cursor: url(../imagenes/c.png),auto;
+}
+
+.cproyectos {
+  height: 34rem;
+  width: 49rem;
+  display: flex;
+  position: absolute;
+  left: 150px;
+  margin-left: 420px;
+  margin-top: 10px;
+}
+
+.tcontacto {
+  position: relative;
+  display: inline-flex;
+}
+
+.contacto1{
+  position: absolute;
+  left: 10px;
+  width: 440px;
+}
+
+.subtitulo{
+  color: var(--tres);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin: 30px 0px 0px 50px;
+}
+
+.contacto {
+  color: var(--uno);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+  margin: 0px 0px 0px 50px;
+  
+}
+
+.mensaje {
+  display: inline-block;
+  position: absolute;
+  left: 800px;
+  color: var(--cero);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+}
+
+#pcuentas {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  position: relative;
+  top: 600px;
+  margin: 0px 5px 0px 50px;
+}
+
